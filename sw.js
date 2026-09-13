@@ -1,4 +1,4 @@
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.0.1';
 const APP_BUILD_DATE = '2026-08-10T09:00:00';
 const CACHE_NAME = `insane-cache-v${APP_VERSION}`;
 const PRECACHE_URLS = [
