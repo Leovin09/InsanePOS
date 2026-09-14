@@ -404,7 +404,10 @@ const ACCENT_PRESETS = {
   blue:   {label:'Blue',   light:'#1D5FBF', lightDark:'#123E80', dark:'#5B9DFF', darkDark:'#3B7BE0'},
   purple: {label:'Purple', light:'#6A3FBF', lightDark:'#472A80', dark:'#B48CFF', darkDark:'#8F63E0'},
   orange: {label:'Orange', light:'#C1601A', lightDark:'#824010', dark:'#FFA55C', darkDark:'#E08A3B'},
-  red:    {label:'Red',    light:'#B3261E', lightDark:'#7A1A14', dark:'#F2685C', darkDark:'#D9483C'}
+  red:    {label:'Red',    light:'#B3261E', lightDark:'#7A1A14', dark:'#F2685C', darkDark:'#D9483C'},
+  blackgold: {label: 'Black & Gold', light: '#C9A227', lightDark: '#8A6D1D', dark: '#F5D76E', darkDark: '#C9A227'},
+  black: {label: 'Black', light: '#000000', lightDark: '#000000', dark: '#1A1A1A', darkDark: '#000000'},
+  gold: {label: 'Gold', light: '#C9A227', lightDark: '#8A6D1D', dark: '#F5D76E', darkDark: '#C9A227'}
 };
 function applyAccent(){
   const key = (STATE && STATE.uiSettings && STATE.uiSettings.accentColor) || 'green';
